@@ -17,5 +17,10 @@ namespace JenkinsDemo
         {
             return a + b;
         }
+        public int Subtract(int a,int b)
+        {
+            int result = a - b;
+            return result;
+        }
     }
 }
